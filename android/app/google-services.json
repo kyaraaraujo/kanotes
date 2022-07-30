@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "958009427987",
+    "project_id": "kanotes",
+    "storage_bucket": "kanotes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958009427987:android:109481aaf0d196fe65d7e6",
+        "android_client_info": {
+          "package_name": "com.kdevlab.kanotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958009427987-te5jm6cgtfqr56o81dk8sb1l6rkddo2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXHE2Iz6LB2jtVye0gxK_Fffbk_sTU09o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958009427987-te5jm6cgtfqr56o81dk8sb1l6rkddo2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+{
+    "logout_button": "Sair",
+    "note": "Anotação",
+    "cancel": "Cancelar",
+    "yes": "Sim",
+    "delete": "Remover",
+    "sharing": "Compartilhar",
+    "ok": "OK",
+    "login": "Entrar",
+    "verify_email": "Verificar email",
+    "register": "Registrar",
+    "restart": "Reiniciar app",
+
+    "start_typing_your_note": "Digite sua anotação",
+    "delete_note_prompt": "Tem certeza que deseja remover essa anotação?",
+    "cannot_share_empty_note_prompt": "Sem anotação. Impossível compartilhar!",
+    "generic_error_prompt": "Ocorreu um erro",
+    "logout_dialog_prompt": "Tem certeza que deseja sair?",
+
+    "password_reset": "Reset de senha",
+    "password_reset_dialog_prompt": "Enviamos um link de reset de senha. Por favor verifique seu email.",
+
+    "login_error_cannot_find_user": "Não foi possível encontrar usuário com a credencial informada!",
+    "login_error_wrong_credentials": "Credenciais errada(s)",
+    "login_error_auth_error": "Erro de autenticação",
+
+    "login_view_prompt": "Por favor realize log in na sua conta para interagir e criar anotações!",
+    
+    "login_view_forgot_password": "Esqueci minha senha",
+    "login_view_not_registered_yet": "Ainda sem registro? Registre-se agora!",
+
+    "email_text_field_placeholder": "Informe seu email",
+    "password_text_field_placeholder": "Informe sua senha",
+    
+    "forgot_password": "Esqueci senha",
+    "forgot_password_view_generic_error": "Não foi possível processar seu pedido. Por favor verifique que possui registro ou registre-se na etapa anterior.",
+    "forgot_password_view_prompt": "Se esqueceu sua senha, informe seu email e lhe enviaremos um link de reset de senha.",
+    "forgot_password_view_send_me_link": "Enviar link para reset de senha",
+    "forgot_password_view_back_to_login": "Voltar para página de log in",
+
+    "register_error_weak_password": "A senha informada não é segura o bastante, por favor informe uma senha mais segura!",
+    "register_error_email_already_in_use": "O email informado possui cadastro.",
+    "register_error_generic": "Falha no registro. Por favor tente novamente mais tarde!",
+    "register_error_invalid_email": "O email informado parece ser inválido, por favor verifique o email digitado!",
+    "register_view_prompt": "Informe seu email e senha para visualizar suas anotações!",
+    "register_view_already_registered": "Já possui registro? Entre aqui!",
+
+    "verify_email_view_prompt": "Enviamos um email de verificação, por favor confira seu email para concluir o registro de sua conta. Se ainda não recebeu, toque no botão abaixo!",
+    "verify_email_send_email_verification": "Enviar email de verificação",
+
+    "loading_screen": "Por favor aguarde...",
+    
+    "notes_title": "{count, plural, =0{Sem anotações} =1{1 anotação} other{{count} anotações}}",
+    "@notes_title": {
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "3 anotações"
+            }
+        }
+    }
+
+}
