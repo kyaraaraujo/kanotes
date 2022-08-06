@@ -38,7 +38,8 @@ class _ForgotPasswordViewState extends State<ForgotPasswordView> {
             _controller.clear();
             await showPasswordResetEmailSentDialog(context);
           }
-          if (state.exception != null) {
+          // added 'mounted' to remove the BuildContext warning about async gaps
+          if (state.exception != null && mounted) {
             await showErrorDialog(
               context,
               context.loc.forgot_password_view_generic_error,
