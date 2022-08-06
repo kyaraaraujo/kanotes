@@ -8,7 +8,7 @@ This is a CRUD notes flutter app project with authentication (serverless), for s
 
 | Registering | Log in with notes
 | :---: | :---: |
-|![adding_items_screenshot](./readme_images/adding_item.png) | ![removing_items_screenshot](readme_images/removing_item.png) |
+|![](./readme_images/item.png) | ![](readme_images/item2.png) |
 
 
 |     STACKS    |
