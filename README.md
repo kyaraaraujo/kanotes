@@ -31,7 +31,6 @@ This is a CRUD notes flutter app project with authentication (serverless), for s
 
 ## Table of Contents
 
-[Added](#added) &nbsp;&nbsp; | &nbsp;&nbsp; 
 [Reminders](#reminders) &nbsp;&nbsp; | &nbsp;&nbsp; 
 [How to run](#how-to-run) &nbsp;&nbsp; | &nbsp;&nbsp; 
 [To Do](#to-do) &nbsp;&nbsp; | &nbsp;&nbsp; 
@@ -41,7 +40,6 @@ This is a CRUD notes flutter app project with authentication (serverless), for s
 <br>
 
 
-## Added
 
 
 ## Reminders
