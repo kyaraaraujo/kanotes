@@ -1,6 +1,6 @@
 # Kanotes
 
-This is a CRUD notes flutter app project with authentication (serverless), for study purpose. In this app is possible to authenticate, add, edit, read and remove notes using Firebasde.
+This is a CRUD notes flutter app project with authentication (serverless), for study purpose. In this app is possible to authenticate, add, edit, read and remove notes using Firebase.
 
 
 <div align="center">
