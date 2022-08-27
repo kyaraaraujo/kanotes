@@ -39,7 +39,7 @@
     "forgot_password_view_back_to_login": "Back to login page",
 
     "register_error_weak_password": "This password is not secure enough. Please choose another password!",
-    "register_error_email_already_in_use": "This email is already registered to another user. Please choose another email!",
+    "register_error_email_already_in_use": "This email is already registered.",
     "register_error_generic": "Failed to register. Please try again later!",
     "register_error_invalid_email": "The email address you entered appears to be invalid. Please try another email address!",
     "register_view_prompt": "Enter your email and password to see your notes!",

@@ -1,14 +1,18 @@
 # Kanotes
 
-This is a CRUD notes flutter app project with authentication (serverless), for study purpose. In this app is possible to authenticate, add, edit, read and remove notes using Firebasde.
+This is a CRUD notes flutter app project with authentication (serverless), for study purpose. In this app is possible to authenticate, add, edit, read and remove notes using Firebase.
 
 
 <div align="center">
 <br>
 
-| Registering | Log in with notes
+| Register | Log in |
 | :---: | :---: |
-|![adding_items_screenshot](./readme_images/adding_item.png) | ![removing_items_screenshot](readme_images/removing_item.png) |
+|![register_screenshot](./readme_images/register.png) | ![login_screenshot](readme_images/login.png) |
+
+| Notes | Some Dialogs |
+| :---: | :---: |
+|![notes_screenshot](./readme_images/notes.png) | ![some_dialogs_screenshot](readme_images/some_dialogs.png) |
 
 
 |     STACKS    |
@@ -18,9 +22,9 @@ This is a CRUD notes flutter app project with authentication (serverless), for s
 
 
 
-| PROJECT STATUS   |                      Developer                   |
+| PROJECT STATUS   |                      DEVELOPER                   |
 |        :---:     |                         :---:                    |  
-|   In progress    |   [Kyara Araújo](https://github.com/kyaraaraujo) | 
+|   Done    |   [Kyara Araújo](https://github.com/kyaraaraujo) | 
 
 
 <br>
@@ -31,7 +35,6 @@ This is a CRUD notes flutter app project with authentication (serverless), for s
 
 ## Table of Contents
 
-[Added](#added) &nbsp;&nbsp; | &nbsp;&nbsp; 
 [Reminders](#reminders) &nbsp;&nbsp; | &nbsp;&nbsp; 
 [How to run](#how-to-run) &nbsp;&nbsp; | &nbsp;&nbsp; 
 [To Do](#to-do) &nbsp;&nbsp; | &nbsp;&nbsp; 
@@ -40,8 +43,6 @@ This is a CRUD notes flutter app project with authentication (serverless), for s
 </div>
 <br>
 
-
-## Added
 
 
 ## Reminders
@@ -58,16 +59,16 @@ This is a CRUD notes flutter app project with authentication (serverless), for s
 
 - `.pushNamedAndRemoveUntil()` → It's used to bring a Page and remove the Page before (avoids memory consuming).
     ```Dart
-        // constants in another file
-        const login = '/login/';
+    // constants in another file
+    const login = '/login/';
 
-        // inside main()
-        routes: {
-            login: (context) => const LoginView(),
-        }
+    // inside main()
+    routes: {
+        login: (context) => const LoginView(),
+    }
 
-        // to call the named route
-        Navigator.of(context).pushNamedAndRemoveUntil(login, (route) => false)
+    // to call the named route
+    Navigator.of(context).pushNamedAndRemoveUntil(login, (route) => false)
     ```
     The route in this case is a named route because was defined/known as a route before.
 
@@ -92,7 +93,11 @@ This is a CRUD notes flutter app project with authentication (serverless), for s
 
 - [x] ~~Fix warning: Do not use BuildContexts across async gaps~~
 
-- [ ] Center CircularProgressIndicator in the notes view
+- [x] ~~Center CircularProgressIndicator in the notes view~~
+
+- [x] ~~Fix: when tap in 'I forgot my password' (in login view) is trying to send an email even if the textfield is empty.~~
+
+- [x] ~~Add app screenshots to README~~
 
 
 ## References

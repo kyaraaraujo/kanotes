@@ -124,7 +124,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
           isLoading: false,
         ));
         final email = event.email;
-        if (email == null) return;
+        if (email == null || email.isEmpty) return;
 
         emit(const AuthStateForgotPassword(
           exception: null,
